@@ -1,0 +1,85 @@
+.modal-container {
+    padding: 20px 50px;
+}
+
+.datatable-img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    /* object-position: top; */
+}
+
+.white {
+    color: #ffffff !important;
+}
+
+
+/* Member Card CSS */
+.bg-member {
+    background-image: url('/img/card_front.jpg');
+    width: 400px;
+    height: 249px;
+    /* width: 400px;
+    height: 249px; */
+    background-position: center;
+    background-size: cover;
+}
+
+.member-info {
+    text-align: center;
+}
+
+.member-info h4 {
+    color: #da251c;
+    margin-bottom: 0;
+}
+
+.member-info h5 {
+    margin-top: 2px;
+}
+
+.member-since {
+    font-size: 11px !important;
+    text-align: right;
+    color: #ec2322 !important;
+}
+
+.member-qr {
+    font-size: 9px;
+}
+.card-modal {
+    padding: 20px;
+}
+
+.card-header {
+    margin-bottom: 0 !important;
+    box-shadow: none !important;
+}
+
+.bg-member-back{
+    background-image: url('/img/card_back.jpg');
+    width: 400px;
+    height: 249px;
+    background-position: center;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-member-front {
+    background-image: url('/img/card_front.jpg');
+    width: 400px;
+    height: 249px;
+    background-position: center;
+    background-size: cover;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mb-0 {
+    margin-bottom: 0 !important;
+}
